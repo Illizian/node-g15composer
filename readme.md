@@ -2,6 +2,10 @@ Node g15composer Library
 ==============
 A library for communication with the g15composer pipe
 
+<p align="center">
+  <img src="https://s3-eu-west-1.amazonaws.com/node-g15composer/node-g15composer-splash-screen.jpg" alt="Node g15composer splashscreen"/>
+</p>
+
 Requirements
 ------------
 * Linux (tested on Ubuntu)
