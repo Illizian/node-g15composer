@@ -7,7 +7,7 @@
     "g15": "bin/g15"
   },
   "dependencies" : {
-    "prompt"      :  "*",
+    "prompt"      :  "*"
   },
   "repository": {
     "type": "git",
