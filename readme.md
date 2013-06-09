@@ -33,7 +33,7 @@ Functions
 
 text(size, ['array', 'of', 'strings'])
 
-*size : S, M, L (string case-sensitive)*
+size : S, M, L (string case-sensitive)*
 
 	g15composer.text('M', ['This is an example message']);
 
@@ -41,7 +41,7 @@ text(size, ['array', 'of', 'strings'])
 
 textXY(size, x, y, ['array', 'of', 'strings'])
 
-* size : pixel value (e.g. 20)*
+size : pixel value (e.g. 20)*
 
 	g15composer.textXY(10, 5, 5, ['This is an example message']);
 
