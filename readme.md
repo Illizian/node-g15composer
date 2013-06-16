@@ -27,7 +27,48 @@ How to use
 
 	var g15composer = require('g15composer').init('/path/to/pipe');
 
-Functions
+Notification Service
+--------------------
+g15composer can be started in notifications mode, enabling you to push messages to a queue.
+
+**1. Include in your project**
+
+	var g15composer = require('g15composer').init('/path/to/pipe', 'notifications'); 
+
+**2. Push a message to the queue**
+
+	g15composer.push(title, message, options)
+
+Where options is an optional object containing the following supported methods:
+
+	```javascript
+	options = {
+		delay : 5 // Adjust the default delay to X seconds (can be decimal)
+		priority: true // Add to front of queue to be displayed next!
+	}
+	```
+
+**Other Features**
+
+Return the current queue
+
+	```javascript
+	console.log(g15composer.queue);
+	```
+
+Clear the queue
+
+	```javascript
+	g15composer.clear();
+	```
+
+Force next message
+
+	```javascript
+	g15composer.next();
+	```
+
+API Functions
 ---------
 **Render standard text**
 
